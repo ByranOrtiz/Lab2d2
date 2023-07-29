@@ -1,0 +1,900 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"172 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 172:     struct {
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S6 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"171
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 171: typedef union {
+[u S5 `S6 1 ]
+[n S5 . . ]
+"183
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 183: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x005)));
+[v _PORTAbits `VS5 ~T0 @X0 0 e@5 ]
+"1422
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1422:     struct {
+[s S53 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"1421
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1421: typedef union {
+[u S52 `S53 1 ]
+[n S52 . . ]
+"1433
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1433: extern volatile TRISAbits_t TRISAbits __attribute__((address(0x085)));
+[v _TRISAbits `VS52 ~T0 @X0 0 e@133 ]
+"3393
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3393:     struct {
+[s S133 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S133 . ANS0 ANS1 ANS2 ANS3 ANS4 ANS5 ANS6 ANS7 ]
+"3392
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3392: typedef union {
+[u S132 `S133 1 ]
+[n S132 . . ]
+"3404
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3404: extern volatile ANSELbits_t ANSELbits __attribute__((address(0x188)));
+[v _ANSELbits `VS132 ~T0 @X0 0 e@392 ]
+"420
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 420:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RE0 RE1 RE2 RE3 ]
+"419
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 419: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"427
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 427: extern volatile PORTEbits_t PORTEbits __attribute__((address(0x009)));
+[v _PORTEbits `VS13 ~T0 @X0 0 e@9 ]
+"1670
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1670:     struct {
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . TRISE0 TRISE1 TRISE2 TRISE3 ]
+"1669
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1669: typedef union {
+[u S60 `S61 1 ]
+[n S60 . . ]
+"1677
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1677: extern volatile TRISEbits_t TRISEbits __attribute__((address(0x089)));
+[v _TRISEbits `VS60 ~T0 @X0 0 e@137 ]
+"234
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 234:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"233
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 233: typedef union {
+[u S7 `S8 1 ]
+[n S7 . . ]
+"245
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 245: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"1484
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1484:     struct {
+[s S55 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S55 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1483
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1483: typedef union {
+[u S54 `S55 1 ]
+[n S54 . . ]
+"1495
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1495: extern volatile TRISBbits_t TRISBbits __attribute__((address(0x086)));
+[v _TRISBbits `VS54 ~T0 @X0 0 e@134 ]
+"3455
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3455:     struct {
+[s S135 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S135 . ANS8 ANS9 ANS10 ANS11 ANS12 ANS13 ]
+"3454
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3454: typedef union {
+[u S134 `S135 1 ]
+[n S134 . . ]
+"3464
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3464: extern volatile ANSELHbits_t ANSELHbits __attribute__((address(0x189)));
+[v _ANSELHbits `VS134 ~T0 @X0 0 e@393 ]
+"1251
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1251:     struct {
+[s S45 :1 `uc 1 :1 `uc 1 :4 `uc 1 :2 `uc 1 ]
+[n S45 . ADON GO_nDONE CHS ADCS ]
+"1257
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1257:     struct {
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . . GO CHS0 CHS1 CHS2 CHS3 ADCS0 ADCS1 ]
+"1267
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1267:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 ]
+[n S47 . . nDONE ]
+"1271
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1271:     struct {
+[s S48 :1 `uc 1 :1 `uc 1 ]
+[n S48 . . GO_DONE ]
+"1250
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1250: typedef union {
+[u S44 `S45 1 `S46 1 `S47 1 `S48 1 ]
+[n S44 . . . . . ]
+"1276
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1276: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x01F)));
+[v _ADCON0bits `VS44 ~T0 @X0 0 e@31 ]
+"2983
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2983:     struct {
+[s S116 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S116 . . VCFG0 VCFG1 . ADFM ]
+"2982
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2982: typedef union {
+[u S115 `S116 1 ]
+[n S115 . . ]
+"2991
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2991: extern volatile ADCON1bits_t ADCON1bits __attribute__((address(0x09F)));
+[v _ADCON1bits `VS115 ~T0 @X0 0 e@159 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"3591 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3591: extern volatile __bit ADIF __attribute__((address(0x66)));
+[v _ADIF `Vb ~T0 @X0 0 e@102 ]
+"1238
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1238: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"54 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"10 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 10: void adc_init(int channel){
+[v _adc_init `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _adc_init ]
+[v _channel `i ~T0 @X0 1 r1 ]
+[f ]
+"11
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 11:     switch (channel){
+[e $U 140  ]
+{
+"12
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 12:         case 0:
+[e :U 141 ]
+"13
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 13:             PORTAbits.RA0=0;
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"14
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 14:             TRISAbits.TRISA0=1;
+[e = . . _TRISAbits 0 0 -> -> 1 `i `uc ]
+"15
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 15:             ANSELbits.ANS0=1;
+[e = . . _ANSELbits 0 0 -> -> 1 `i `uc ]
+"16
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 16:             break;
+[e $U 139  ]
+"17
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 17:         case 1:
+[e :U 142 ]
+"18
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 18:             PORTAbits.RA1=0;
+[e = . . _PORTAbits 0 1 -> -> 0 `i `uc ]
+"19
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 19:             TRISAbits.TRISA1=1;
+[e = . . _TRISAbits 0 1 -> -> 1 `i `uc ]
+"20
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 20:             ANSELbits.ANS1=1;
+[e = . . _ANSELbits 0 1 -> -> 1 `i `uc ]
+"21
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 21:             break;
+[e $U 139  ]
+"22
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 22:         case 2:
+[e :U 143 ]
+"23
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 23:             PORTAbits.RA2=0;
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"24
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 24:             TRISAbits.TRISA2=1;
+[e = . . _TRISAbits 0 2 -> -> 1 `i `uc ]
+"25
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 25:             ANSELbits.ANS2=1;
+[e = . . _ANSELbits 0 2 -> -> 1 `i `uc ]
+"26
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 26:             break;
+[e $U 139  ]
+"27
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 27:         case 3:
+[e :U 144 ]
+"28
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 28:             PORTAbits.RA3=0;
+[e = . . _PORTAbits 0 3 -> -> 0 `i `uc ]
+"29
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 29:             TRISAbits.TRISA3=1;
+[e = . . _TRISAbits 0 3 -> -> 1 `i `uc ]
+"30
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 30:             ANSELbits.ANS3=1;
+[e = . . _ANSELbits 0 3 -> -> 1 `i `uc ]
+"31
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 31:             break;
+[e $U 139  ]
+"32
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 32:         case 4:
+[e :U 145 ]
+"33
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 33:             PORTAbits.RA5=0;
+[e = . . _PORTAbits 0 5 -> -> 0 `i `uc ]
+"34
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 34:             TRISAbits.TRISA5=1;
+[e = . . _TRISAbits 0 5 -> -> 1 `i `uc ]
+"35
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 35:             ANSELbits.ANS4=1;
+[e = . . _ANSELbits 0 4 -> -> 1 `i `uc ]
+"36
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 36:             break;
+[e $U 139  ]
+"37
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 37:         case 5:
+[e :U 146 ]
+"38
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 38:             PORTEbits.RE0=0;
+[e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
+"39
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 39:             TRISEbits.TRISE0=1;
+[e = . . _TRISEbits 0 0 -> -> 1 `i `uc ]
+"40
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 40:             ANSELbits.ANS5=1;
+[e = . . _ANSELbits 0 5 -> -> 1 `i `uc ]
+"41
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 41:             break;
+[e $U 139  ]
+"42
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 42:         case 6:
+[e :U 147 ]
+"43
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 43:             PORTEbits.RE1=0;
+[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
+"44
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 44:             TRISEbits.TRISE1=1;
+[e = . . _TRISEbits 0 1 -> -> 1 `i `uc ]
+"45
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 45:             ANSELbits.ANS6=1;
+[e = . . _ANSELbits 0 6 -> -> 1 `i `uc ]
+"46
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 46:             break;
+[e $U 139  ]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 47:         case 7:
+[e :U 148 ]
+"48
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 48:             PORTEbits.RE2=0;
+[e = . . _PORTEbits 0 2 -> -> 0 `i `uc ]
+"49
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 49:             TRISEbits.TRISE2=1;
+[e = . . _TRISEbits 0 2 -> -> 1 `i `uc ]
+"50
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 50:             ANSELbits.ANS7=1;
+[e = . . _ANSELbits 0 7 -> -> 1 `i `uc ]
+"51
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 51:             break;
+[e $U 139  ]
+"52
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 52:         case 8:
+[e :U 149 ]
+"53
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 53:             PORTBbits.RB2=0;
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"54
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 54:             TRISBbits.TRISB2=1;
+[e = . . _TRISBbits 0 2 -> -> 1 `i `uc ]
+"55
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 55:             ANSELHbits.ANS8=1;
+[e = . . _ANSELHbits 0 0 -> -> 1 `i `uc ]
+"56
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 56:             break;
+[e $U 139  ]
+"57
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 57:         case 9:
+[e :U 150 ]
+"58
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 58:             PORTBbits.RB3=0;
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"59
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 59:             TRISBbits.TRISB3=1;
+[e = . . _TRISBbits 0 3 -> -> 1 `i `uc ]
+"60
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 60:             ANSELHbits.ANS9=1;
+[e = . . _ANSELHbits 0 1 -> -> 1 `i `uc ]
+"61
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 61:             break;
+[e $U 139  ]
+"62
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 62:         case 10:
+[e :U 151 ]
+"63
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 63:             PORTBbits.RB1=0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"64
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 64:             TRISBbits.TRISB1=1;
+[e = . . _TRISBbits 0 1 -> -> 1 `i `uc ]
+"65
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 65:             ANSELHbits.ANS10=1;
+[e = . . _ANSELHbits 0 2 -> -> 1 `i `uc ]
+"66
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 66:             break;
+[e $U 139  ]
+"67
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 67:         case 11:
+[e :U 152 ]
+"68
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 68:             PORTBbits.RB4=0;
+[e = . . _PORTBbits 0 4 -> -> 0 `i `uc ]
+"69
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 69:             TRISBbits.TRISB4=1;
+[e = . . _TRISBbits 0 4 -> -> 1 `i `uc ]
+"70
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 70:             ANSELHbits.ANS11=1;
+[e = . . _ANSELHbits 0 3 -> -> 1 `i `uc ]
+"71
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 71:             break;
+[e $U 139  ]
+"72
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 72:         case 12:
+[e :U 153 ]
+"73
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 73:             PORTBbits.RB0=0;
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+"74
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 74:             TRISBbits.TRISB0=1;
+[e = . . _TRISBbits 0 0 -> -> 1 `i `uc ]
+"75
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 75:             ANSELHbits.ANS12=1;
+[e = . . _ANSELHbits 0 4 -> -> 1 `i `uc ]
+"76
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 76:             break;
+[e $U 139  ]
+"77
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 77:         case 13:
+[e :U 154 ]
+"78
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 78:             PORTBbits.RB5=0;
+[e = . . _PORTBbits 0 5 -> -> 0 `i `uc ]
+"79
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 79:             TRISBbits.TRISB5=1;
+[e = . . _TRISBbits 0 5 -> -> 1 `i `uc ]
+"80
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 80:             ANSELHbits.ANS13=1;
+[e = . . _ANSELHbits 0 5 -> -> 1 `i `uc ]
+"81
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 81:             break;
+[e $U 139  ]
+"82
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 82:     }
+}
+[e $U 139  ]
+[e :U 140 ]
+[e [\ _channel , $ -> 0 `i 141
+ , $ -> 1 `i 142
+ , $ -> 2 `i 143
+ , $ -> 3 `i 144
+ , $ -> 4 `i 145
+ , $ -> 5 `i 146
+ , $ -> 6 `i 147
+ , $ -> 7 `i 148
+ , $ -> 8 `i 149
+ , $ -> 9 `i 150
+ , $ -> 10 `i 151
+ , $ -> 11 `i 152
+ , $ -> 12 `i 153
+ , $ -> 13 `i 154
+ 139 ]
+[e :U 139 ]
+"84
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 84:     ADCON0bits.ADCS1=0;
+[e = . . _ADCON0bits 1 7 -> -> 0 `i `uc ]
+"85
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 85:     ADCON0bits.ADCS0=1;
+[e = . . _ADCON0bits 1 6 -> -> 1 `i `uc ]
+"86
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 86:     ADCON0bits.ADCS =01;
+[e = . . _ADCON0bits 0 3 -> -> 1 `i `uc ]
+"87
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 87:     ADCON1bits.VCFG1=0;
+[e = . . _ADCON1bits 0 2 -> -> 0 `i `uc ]
+"88
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 88:     ADCON1bits.VCFG0=0;
+[e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
+"90
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 90:     ADCON1bits.ADFM=0;
+[e = . . _ADCON1bits 0 4 -> -> 0 `i `uc ]
+"91
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 91:     ADCON0bits.ADON=1;
+[e = . . _ADCON0bits 0 0 -> -> 1 `i `uc ]
+"93
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 93:     _delay((unsigned long)((100)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"94
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 94: }
+[e :UE 138 ]
+}
+"96
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 96: int adc_read(){
+[v _adc_read `(i ~T0 @X0 1 ef ]
+{
+[e :U _adc_read ]
+[f ]
+"97
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 97:     int adcValue;
+[v _adcValue `i ~T0 @X0 1 a ]
+"98
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 98:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"99
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 99:     while(ADCON0bits.GO == 1);
+[e $U 156  ]
+[e :U 157 ]
+[e :U 156 ]
+[e $ == -> . . _ADCON0bits 1 1 `i -> 1 `i 157  ]
+[e :U 158 ]
+"100
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 100:     ADIF = 0;
+[e = _ADIF -> -> 0 `i `b ]
+"101
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 101:     adcValue = ADRESH;
+[e = _adcValue -> _ADRESH `i ]
+"102
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 102:     return adcValue;
+[e ) _adcValue ]
+[e $UE 155  ]
+"103
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 103: }
+[e :UE 155 ]
+}
+"105
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 105: void adc_change_channel(int channel){
+[v _adc_change_channel `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _adc_change_channel ]
+[v _channel `i ~T0 @X0 1 r1 ]
+[f ]
+"106
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 106:     switch (channel){
+[e $U 161  ]
+{
+"107
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 107:         case 0:
+[e :U 162 ]
+"108
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 108:             ADCON0bits.CHS = 0b0000;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"109
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 109:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"110
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 110:             break;
+[e $U 160  ]
+"111
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 111:         case 1:
+[e :U 163 ]
+"112
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 112:             ADCON0bits.CHS = 0b0001;
+[e = . . _ADCON0bits 0 2 -> -> 1 `i `uc ]
+"113
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 113:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"114
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 114:             break;
+[e $U 160  ]
+"115
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 115:         case 2:
+[e :U 164 ]
+"116
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 116:             ADCON0bits.CHS = 0b0010;
+[e = . . _ADCON0bits 0 2 -> -> 2 `i `uc ]
+"117
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 117:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"118
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 118:             break;
+[e $U 160  ]
+"119
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 119:         case 3:
+[e :U 165 ]
+"120
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 120:             ADCON0bits.CHS = 0b0011;
+[e = . . _ADCON0bits 0 2 -> -> 3 `i `uc ]
+"121
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 121:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"122
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 122:             break;
+[e $U 160  ]
+"123
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 123:         case 4:
+[e :U 166 ]
+"124
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 124:             ADCON0bits.CHS = 0b0100;
+[e = . . _ADCON0bits 0 2 -> -> 4 `i `uc ]
+"125
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 125:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"126
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 126:             break;
+[e $U 160  ]
+"127
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 127:         case 5:
+[e :U 167 ]
+"128
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 128:             ADCON0bits.CHS = 0b0101;
+[e = . . _ADCON0bits 0 2 -> -> 5 `i `uc ]
+"129
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 129:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"130
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 130:             break;
+[e $U 160  ]
+"131
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 131:         case 6:
+[e :U 168 ]
+"132
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 132:             ADCON0bits.CHS = 0b0110;
+[e = . . _ADCON0bits 0 2 -> -> 6 `i `uc ]
+"133
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 133:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"134
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 134:             break;
+[e $U 160  ]
+"135
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 135:         case 7:
+[e :U 169 ]
+"136
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 136:             ADCON0bits.CHS = 0b0111;
+[e = . . _ADCON0bits 0 2 -> -> 7 `i `uc ]
+"137
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 137:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"138
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 138:             break;
+[e $U 160  ]
+"139
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 139:         case 8:
+[e :U 170 ]
+"140
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 140:             ADCON0bits.CHS = 0b1000;
+[e = . . _ADCON0bits 0 2 -> -> 8 `i `uc ]
+"141
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 141:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"142
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 142:             break;
+[e $U 160  ]
+"143
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 143:         case 9:
+[e :U 171 ]
+"144
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 144:             ADCON0bits.CHS = 0b1001;
+[e = . . _ADCON0bits 0 2 -> -> 9 `i `uc ]
+"145
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 145:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"146
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 146:             break;
+[e $U 160  ]
+"147
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 147:         case 10:
+[e :U 172 ]
+"148
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 148:             ADCON0bits.CHS = 0b1010;
+[e = . . _ADCON0bits 0 2 -> -> 10 `i `uc ]
+"149
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 149:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"150
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 150:             break;
+[e $U 160  ]
+"151
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 151:         case 11:
+[e :U 173 ]
+"152
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 152:             ADCON0bits.CHS = 0b1011;
+[e = . . _ADCON0bits 0 2 -> -> 11 `i `uc ]
+"153
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 153:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"154
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 154:             break;
+[e $U 160  ]
+"155
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 155:         case 12:
+[e :U 174 ]
+"156
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 156:             ADCON0bits.CHS = 0b1100;
+[e = . . _ADCON0bits 0 2 -> -> 12 `i `uc ]
+"157
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 157:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"158
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 158:             break;
+[e $U 160  ]
+"159
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 159:         case 13:
+[e :U 175 ]
+"160
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 160:             ADCON0bits.CHS = 0b1101;
+[e = . . _ADCON0bits 0 2 -> -> 13 `i `uc ]
+"161
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 161:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"162
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 162:             break;
+[e $U 160  ]
+"163
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 163:         default:
+[e :U 176 ]
+"164
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 164:             ADCON0bits.CHS = 0b000;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"165
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 165:             _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"166
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 166:             break;
+[e $U 160  ]
+"167
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 167: }
+}
+[e $U 160  ]
+[e :U 161 ]
+[e [\ _channel , $ -> 0 `i 162
+ , $ -> 1 `i 163
+ , $ -> 2 `i 164
+ , $ -> 3 `i 165
+ , $ -> 4 `i 166
+ , $ -> 5 `i 167
+ , $ -> 6 `i 168
+ , $ -> 7 `i 169
+ , $ -> 8 `i 170
+ , $ -> 9 `i 171
+ , $ -> 10 `i 172
+ , $ -> 11 `i 173
+ , $ -> 12 `i 174
+ , $ -> 13 `i 175
+ 176 ]
+[e :U 160 ]
+"168
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 168: }
+[e :UE 159 ]
+}
+"170
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 170: int adc_get_channel(){
+[v _adc_get_channel `(i ~T0 @X0 1 ef ]
+{
+[e :U _adc_get_channel ]
+[f ]
+"171
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 171:     return ADCON0bits.CHS;
+[e ) -> . . _ADCON0bits 0 2 `i ]
+[e $UE 177  ]
+"172
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.c: 172: }
+[e :UE 177 ]
+}

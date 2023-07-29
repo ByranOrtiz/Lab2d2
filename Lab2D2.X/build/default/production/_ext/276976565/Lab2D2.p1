@@ -1,0 +1,630 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"39 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 39: void setup(void);
+[v _setup `(v ~T0 @X0 0 ef ]
+"16 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.h: 16: int adc_read();
+[v _adc_read `(i ~T0 @X0 0 e? ]
+"17 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H: 17: void UART_write_char(char *c);
+[v _UART_write_char `(v ~T0 @X0 0 ef1`*uc ]
+"543 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 543:     struct {
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 542: typedef union {
+[u S18 `S19 1 ]
+[n S18 . . ]
+"553
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 553: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS18 ~T0 @X0 0 e@12 ]
+"18 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H: 18: char UART_read_char(void);
+[v _UART_read_char `(uc ~T0 @X0 0 ef ]
+"114 C:\Program Files\Microchip\xc8\v2.40\pic\include\c90\stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c90\stdlib.h: 114: extern char * utoa(char * buf, unsigned val, int base);
+[v _utoa `(*uc ~T0 @X0 0 ef3`*uc`ui`i ]
+"40 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 40: float map(float value, float fromLow, float fromHigh, float toLow, float toHigh);
+[v _map `(f ~T0 @X0 0 ef5`f`f`f`f`f ]
+"35 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h: 35: void Lcd_Clear(void);
+[v _Lcd_Clear `(v ~T0 @X0 0 ef ]
+"37
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h: 37: void Lcd_Set_Cursor(char a, char b);
+[v _Lcd_Set_Cursor `(v ~T0 @X0 0 ef2`uc`uc ]
+"43
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h: 43: void Lcd_Write_String(char *a);
+[v _Lcd_Write_String `(v ~T0 @X0 0 ef1`*uc ]
+"41
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h: 41: void Lcd_Write_Char(char a);
+[v _Lcd_Write_Char `(v ~T0 @X0 0 ef1`uc ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"3387 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1602
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1664
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1664: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"15 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/ADC.h: 15: void adc_init(int channel);
+[v _adc_init `(v ~T0 @X0 0 ef1`i ]
+"39 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/LCD8B.h: 39: void Lcd_Init(void);
+[v _Lcd_Init `(v ~T0 @X0 0 ef ]
+"1868 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1868:     struct {
+[s S70 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 ]
+[n S70 . SCS LTS HTS OSTS IRCF ]
+"1875
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1875:     struct {
+[s S71 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S71 . . IRCF0 IRCF1 IRCF2 ]
+"1867
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1867: typedef union {
+[u S69 `S70 1 `S71 1 ]
+[n S69 . . . ]
+"1882
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1882: extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0x08F)));
+[v _OSCCONbits `VS69 ~T0 @X0 0 e@143 ]
+"15 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H: 15: void UART_RX_CONFIG(uint16_t baudrate);
+[v _UART_RX_CONFIG `(v ~T0 @X0 0 ef1`ui ]
+"16
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/USART.H: 16: void UART_TX_CONFIG(uint16_t baudrate);
+[v _UART_TX_CONFIG `(v ~T0 @X0 0 ef1`ui ]
+"10 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c
+[p x FOSC  =  INTRC_NOCLKOUT ]
+"11
+[p x WDTE  =  OFF        ]
+"12
+[p x PWRTE  =  OFF       ]
+"13
+[p x MCLRE  =  OFF       ]
+"14
+[p x CP  =  OFF          ]
+"15
+[p x CPD  =  OFF         ]
+"16
+[p x BOREN  =  OFF       ]
+"17
+[p x IESO  =  OFF        ]
+"18
+[p x FCMEN  =  OFF       ]
+"19
+[p x LVP  =  ON         ]
+"22
+[p x BOR4V  =  BOR40V    ]
+"23
+[p x WRT  =  OFF         ]
+"54 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"42 C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 42: char buffer[sizeof(unsigned int)*8+1];
+[v _buffer `uc ~T0 @X0 -> 17 `i e ]
+"43
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 43: unsigned int cpu =0;
+[v _cpu `ui ~T0 @X0 1 e ]
+[i _cpu
+-> -> 0 `i `ui
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 47: void main (void){
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"48
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 48:     setup();
+[e ( _setup ..  ]
+"49
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 49:     while(1){
+[e :U 144 ]
+{
+"50
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 50:         unsigned int adcV, temp;
+[v _adcV `ui ~T0 @X0 1 a ]
+[v _temp `ui ~T0 @X0 1 a ]
+"52
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 52:         adcV = adc_read();
+[e = _adcV -> ( _adc_read ..  `ui ]
+"54
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 54:         UART_write_char("\r49");
+[e ( _UART_write_char (1 :s 1C ]
+"55
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 55:         UART_write_char("\r__Presione 1 para leer el potenciometro__");
+[e ( _UART_write_char (1 :s 2C ]
+"56
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 56:         UART_write_char("\r__Presione 2 para enviar + o -__");
+[e ( _UART_write_char (1 :s 3C ]
+"58
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 58:         while(PIR1bits.RCIF==0);
+[e $U 146  ]
+[e :U 147 ]
+[e :U 146 ]
+[e $ == -> . . _PIR1bits 0 5 `i -> 0 `i 147  ]
+[e :U 148 ]
+"60
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 60:         if(UART_read_char()==0b00110001){
+[e $ ! == -> ( _UART_read_char ..  `i -> 49 `i 149  ]
+{
+"61
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 61:             UART_write_char("\r__Lectura del POT__");
+[e ( _UART_write_char (1 :s 4C ]
+"62
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 62:             UART_write_char("\rNumero actual: ");
+[e ( _UART_write_char (1 :s 5C ]
+"63
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 63:             UART_write_char(utoa(buffer,adcV,10));
+[e ( _UART_write_char (1 ( _utoa (3 , , &U _buffer _adcV -> 10 `i ]
+"64
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 64:             UART_write_char("\r");
+[e ( _UART_write_char (1 :s 6C ]
+"65
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 65:         }
+}
+[e :U 149 ]
+"67
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 67:         if(UART_read_char()==0b00110010){
+[e $ ! == -> ( _UART_read_char ..  `i -> 50 `i 150  ]
+{
+"68
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 68:             UART_write_char("\r Escriba + o - para modificar el contador");
+[e ( _UART_write_char (1 :s 7C ]
+"69
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 69:             while(PIR1bits.RCIF==0);
+[e $U 151  ]
+[e :U 152 ]
+[e :U 151 ]
+[e $ == -> . . _PIR1bits 0 5 `i -> 0 `i 152  ]
+[e :U 153 ]
+"70
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 70:             if(UART_read_char()==0b00110001){
+[e $ ! == -> ( _UART_read_char ..  `i -> 49 `i 154  ]
+{
+"71
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 71:                 cpu++;
+[e ++ _cpu -> -> 1 `i `ui ]
+"72
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 72:             }
+}
+[e :U 154 ]
+"73
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 73:             if(UART_read_char()==0b00110010){
+[e $ ! == -> ( _UART_read_char ..  `i -> 50 `i 155  ]
+{
+"74
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 74:                 cpu--;
+[e -- _cpu -> -> 1 `i `ui ]
+"75
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 75:             }
+}
+[e :U 155 ]
+"76
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 76:             UART_write_char("\rNumero actual contador: ");
+[e ( _UART_write_char (1 :s 8C ]
+"77
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 77:             UART_write_char(utoa(buffer,cpu,10));
+[e ( _UART_write_char (1 ( _utoa (3 , , &U _buffer _cpu -> 10 `i ]
+"78
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 78:             UART_write_char ("\r");
+[e ( _UART_write_char (1 :s 9C ]
+"79
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 79:             PIR1bits.RCIF = 0;
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"80
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 80:             while(PIR1bits.RCIF==0);
+[e $U 156  ]
+[e :U 157 ]
+[e :U 156 ]
+[e $ == -> . . _PIR1bits 0 5 `i -> 0 `i 157  ]
+[e :U 158 ]
+"81
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 81:         }
+}
+[e :U 150 ]
+"84
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 84:         temp = map(adcV,0,255,0,500);
+[e = _temp -> ( _map (4 , , , , -> _adcV `f -> -> 0 `i `f -> -> 255 `i `f -> -> 0 `i `f -> -> 500 `i `f `ui ]
+"85
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 85:         char voltaje[3];
+[v _voltaje `uc ~T0 @X0 -> 3 `i a ]
+"86
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 86:         voltaje[0]=temp/100+48;
+[e = *U + &U _voltaje * -> -> -> 0 `i `ui `ux -> -> # *U &U _voltaje `ui `ux -> + / _temp -> -> 100 `i `ui -> -> 48 `i `ui `uc ]
+"87
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 87:         voltaje[1]=(temp/10)%10+48;
+[e = *U + &U _voltaje * -> -> -> 1 `i `ui `ux -> -> # *U &U _voltaje `ui `ux -> + % / _temp -> -> 10 `i `ui -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"88
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 88:         voltaje[2]=temp%10+48;
+[e = *U + &U _voltaje * -> -> -> 2 `i `ui `ux -> -> # *U &U _voltaje `ui `ux -> + % _temp -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"89
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 89:         Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"90
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 90:         Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"91
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 91:         Lcd_Write_String("Pot1:");
+[e ( _Lcd_Write_String (1 :s 10C ]
+"92
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 92:         Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"93
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 93:         Lcd_Write_Char(voltaje[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _voltaje * -> -> -> 0 `i `ui `ux -> -> # *U &U _voltaje `ui `ux ]
+"94
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 94:         Lcd_Write_Char('.');
+[e ( _Lcd_Write_Char (1 -> -> 46 `ui `uc ]
+"95
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 95:         Lcd_Write_Char(voltaje[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _voltaje * -> -> -> 1 `i `ui `ux -> -> # *U &U _voltaje `ui `ux ]
+"96
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 96:         Lcd_Write_Char(voltaje[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _voltaje * -> -> -> 2 `i `ui `ux -> -> # *U &U _voltaje `ui `ux ]
+"97
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 97:         Lcd_Write_Char('V');
+[e ( _Lcd_Write_Char (1 -> -> 86 `ui `uc ]
+"100
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 100:         char contador[3];
+[v _contador `uc ~T0 @X0 -> 3 `i a ]
+"101
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 101:         contador[0]=cpu/100+48;
+[e = *U + &U _contador * -> -> -> 0 `i `ui `ux -> -> # *U &U _contador `ui `ux -> + / _cpu -> -> 100 `i `ui -> -> 48 `i `ui `uc ]
+"102
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 102:         contador[1]=(cpu/10)%10+48;
+[e = *U + &U _contador * -> -> -> 1 `i `ui `ux -> -> # *U &U _contador `ui `ux -> + % / _cpu -> -> 10 `i `ui -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"103
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 103:         contador[2]=cpu%10+48;
+[e = *U + &U _contador * -> -> -> 2 `i `ui `ux -> -> # *U &U _contador `ui `ux -> + % _cpu -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"104
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 104:         Lcd_Set_Cursor(1,8);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 8 `i `uc ]
+"105
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 105:         Lcd_Write_String("Contador:");
+[e ( _Lcd_Write_String (1 :s 11C ]
+"106
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 106:         Lcd_Set_Cursor(2,8);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 8 `i `uc ]
+"107
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 107:         Lcd_Write_Char(contador[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _contador * -> -> -> 0 `i `ui `ux -> -> # *U &U _contador `ui `ux ]
+"109
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 109:         Lcd_Write_Char(contador[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _contador * -> -> -> 1 `i `ui `ux -> -> # *U &U _contador `ui `ux ]
+"110
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 110:         Lcd_Write_Char(contador[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _contador * -> -> -> 2 `i `ui `ux -> -> # *U &U _contador `ui `ux ]
+"111
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 111:         Lcd_Write_Char('V');
+[e ( _Lcd_Write_Char (1 -> -> 86 `ui `uc ]
+"114
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 114:         _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"115
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 115:     }
+}
+[e :U 143 ]
+[e $U 144  ]
+[e :U 145 ]
+"116
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 116:     return;
+[e $UE 142  ]
+"117
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 117: }
+[e :UE 142 ]
+}
+"119
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 119: void setup(){
+[v _setup `(v ~T0 @X0 1 ef ]
+{
+[e :U _setup ]
+[f ]
+"120
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 120:     ANSEL = 0;
+[e = _ANSEL -> -> 0 `i `uc ]
+"121
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 121:     ANSELH = 0;
+[e = _ANSELH -> -> 0 `i `uc ]
+"122
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 122:     TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"123
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 123:     TRISE = 0;
+[e = _TRISE -> -> 0 `i `uc ]
+"124
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 124:     adc_init(0);
+[e ( _adc_init (1 -> 0 `i ]
+"125
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 125:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
+"126
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 126:     OSCCONbits.IRCF = 0b110;
+[e = . . _OSCCONbits 0 4 -> -> 6 `i `uc ]
+"127
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 127:     OSCCONbits.SCS = 1;
+[e = . . _OSCCONbits 0 0 -> -> 1 `i `uc ]
+"128
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 128:     UART_RX_CONFIG(9600);
+[e ( _UART_RX_CONFIG (1 -> -> 9600 `i `ui ]
+"129
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 129:     UART_TX_CONFIG(9600);
+[e ( _UART_TX_CONFIG (1 -> -> 9600 `i `ui ]
+"130
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 130: }
+[e :UE 159 ]
+}
+"132
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 132: float map(float value, float fromLow, float fromHigh, float toLow, float toHigh){
+[v _map `(f ~T0 @X0 1 ef5`f`f`f`f`f ]
+{
+[e :U _map ]
+[v _value `f ~T0 @X0 1 r1 ]
+[v _fromLow `f ~T0 @X0 1 r2 ]
+[v _fromHigh `f ~T0 @X0 1 r3 ]
+[v _toLow `f ~T0 @X0 1 r4 ]
+[v _toHigh `f ~T0 @X0 1 r5 ]
+[f ]
+"133
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 133:     return (value - fromLow) * (toHigh - toLow) / (fromHigh - fromLow) + toLow;
+[e ) + / * - _value _fromLow - _toHigh _toLow - _fromHigh _fromLow _toLow ]
+[e $UE 160  ]
+"134
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Lab2D2.X/Lab2D2.c: 134: }
+[e :UE 160 ]
+}
+[a 7C 13 32 69 115 99 114 105 98 97 32 43 32 111 32 45 32 112 97 114 97 32 109 111 100 105 102 105 99 97 114 32 101 108 32 99 111 110 116 97 100 111 114 0 ]
+[a 2C 13 95 95 80 114 101 115 105 111 110 101 32 49 32 112 97 114 97 32 108 101 101 114 32 101 108 32 112 111 116 101 110 99 105 111 109 101 116 114 111 95 95 0 ]
+[a 4C 13 95 95 76 101 99 116 117 114 97 32 100 101 108 32 80 79 84 95 95 0 ]
+[a 3C 13 95 95 80 114 101 115 105 111 110 101 32 50 32 112 97 114 97 32 101 110 118 105 97 114 32 43 32 111 32 45 95 95 0 ]
+[a 11C 67 111 110 116 97 100 111 114 58 0 ]
+[a 10C 80 111 116 49 58 0 ]
+[a 1C 13 52 57 0 ]
+[a 8C 13 78 117 109 101 114 111 32 97 99 116 117 97 108 32 99 111 110 116 97 100 111 114 58 32 0 ]
+[a 5C 13 78 117 109 101 114 111 32 97 99 116 117 97 108 58 32 0 ]
+[a 6C 13 0 ]
+[a 9C 13 0 ]
